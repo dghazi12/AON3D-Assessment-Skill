@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
@@ -11,15 +11,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Home</title>
+    <title>API</title>
   </head>
   <body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-dark bg-dark home navbar-style">
       <div>
         <img src="./images/logo.svg" alt="logo" />
       </div>
-      <a class="btn btn-dark" href="index.html">Home</a>
+      <a class="btn btn-dark" href="index.html">API</a>
       <div class="dropdown">
         <button
           class="btn btn-dark dropdown-toggle"
@@ -39,16 +40,16 @@
     </nav>
 
     <div>
-      <p class="welcome-text">WELCOME TO AON3D</p>
-    </div>
-
-    <div>
-      <h1 class="learn-text">Learn from us and 3DPrint Your Bright Future.</h1>
-    </div>
+        <p class="welcome-text">WELCOME TO AON3D</p>
+      </div>
+  
+      <div>
+        <h1 class="learn-text">Learn from us and 3DPrint Your Bright Future.</h1>
+      </div>
 
     <!-- Card Information -->
 
-    <div id="mainCards"></div>
+    <div id="root"></div>
 
     <!-- FOOTER -->
 
@@ -132,6 +133,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="api.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
