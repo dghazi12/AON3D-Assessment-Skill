@@ -51,10 +51,59 @@ body {
   align-items: center;
 }
 
+.footer {
+  margin: 100px 0px 0px 0px;
+  height: 400px;
+  width: 100%;
+  background-color: #070707;
+  color: white;
+}
+
+.footer-content {
+  float: left;
+  width: 25%;
+}
+
+a {
+  color: white;
+}
+
+.footer-tags-privacy {
+  margin-left: calc(73.6vw - 400px);
+}
+
+.footer-tags {
+  margin-left: 20px;
+}
+
+.api {
+  height: 250px;
+}
+
 @media screen and (max-width: 1000px) {
   .card {
     width: 40%;
     float: left;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer-content {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  .footer {
+    height: 600px;
   }
 }
 
@@ -71,5 +120,22 @@ body {
   .card {
     width: 80%;
     float: left;
+  }
+
+  .footer-container {
+    display: grid;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .footer-tags-privacy {
+    margin-left: 0px;
+  }
+
+  .footer-tags {
+    grid-column: 1;
+    margin-left: 0px;
   }
 }
