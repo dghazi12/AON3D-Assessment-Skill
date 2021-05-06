@@ -36,42 +36,42 @@ function cards() {
       text:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       buttonTitle: "READ DOCS",
-      href: "https://www.google.ca",
+      href: "https://www.aon3d.com/",
     },
     {
       title: "AON3D Academy",
       text:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       buttonTitle: "ACCESS COURSES",
-      href: "https://www.google.ca",
+      href: "https://www.aon3d.com/",
     },
     {
       title: "Online Store",
       text:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       buttonTitle: "PURCHASE ITEMS",
-      href: "https://www.google.ca",
+      href: "https://www.aon3d.com/",
     },
     {
       title: "Vendors",
       text:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       buttonTitle: "BUTTON 4",
-      href: "https://www.google.ca",
+      href: "https://www.aon3d.com/",
     },
     {
       title: "Suppliers",
       text:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       buttonTitle: "BUTTON 5",
-      href: "https://www.google.ca",
+      href: "https://www.aon3d.com/",
     },
     {
       title: "Title 6",
       text:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       buttonTitle: "BUTTON 6",
-      href: "https://www.google.ca",
+      href: "https://www.aon3d.com/",
     },
   ];
 
