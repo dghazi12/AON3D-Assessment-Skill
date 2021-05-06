@@ -1,0 +1,16 @@
+body {
+  width: 100%;
+  background-image: url("./images/banner1.png");
+  height: 100%;
+}
+
+.navbar-style {
+  height: 60px;
+  background: none;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.navbar-title {
+  justify-content: center;
+}
