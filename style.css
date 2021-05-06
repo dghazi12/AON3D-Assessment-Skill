@@ -14,3 +14,62 @@ body {
 .navbar-title {
   justify-content: center;
 }
+
+.welcome-text {
+  background: rgba(32, 32, 32, 0.1);
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px 0px 100px;
+  border-radius: 10px;
+}
+
+.learn-text {
+  color: #ffffff;
+  width: 400px;
+  font-weight: 600;
+  margin: 0px 0px 0px 100px;
+}
+
+.card {
+  background-color: #3d3d3d;
+  color: white;
+  height: 100%;
+  border-radius: 10px;
+  width: 25%;
+  float: left;
+  margin: 50px 0px 10px 7%;
+}
+
+.card-font {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .welcome-text {
+    margin: 0px 0px 0px 20px;
+  }
+
+  .learn-text {
+    margin: 0px 0px 0px 20px;
+    width: 300px;
+  }
+
+  .card {
+    width: 80%;
+    float: left;
+  }
+}
