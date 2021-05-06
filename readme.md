@@ -21,5 +21,10 @@ Created an HTML5 page to meet the requirements of a skill assesment provided by 
 
 ## Functionality
 
+### Part 1
+
 ![](images/skill.gif)
+
+### Part 2
+
 ![](images/api.gif)
